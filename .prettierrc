@@ -1,0 +1,17 @@
+// ctrl + shift + P - открыть коммандную строку VScode -> >settings.json
+// Добавить строки:
+// "editor.defaultFormatter": "esbenp.prettier-vscode",
+// "editor.formatOnSave": true,
+// "prettier.enable": true,
+
+// prettier игнорирует те файлы, которые указаны в .gitignore(если он находится на одном уровне с .prettierrc),
+// но можно создать файл .prettierignore.
+
+{
+	"printWidth": 80,
+	"tabWidth": 2,
+	"trailingComma": "all",
+	"singleQuote": true,
+	"semi": true,
+	"useTabs": true
+}
