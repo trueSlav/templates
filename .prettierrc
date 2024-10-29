@@ -13,5 +13,6 @@
 	"trailingComma": "all",
 	"singleQuote": true,
 	"semi": true,
-	"useTabs": true
+	"useTabs": true,
+	"endOfLine": "lf"
 }
